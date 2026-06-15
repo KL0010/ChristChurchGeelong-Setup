@@ -56,7 +56,7 @@ The scripts install required dependencies, validate the host environment, preser
 .\03-install-sql.ps1 <br />
 .\04-install-cloudflared.ps1 <br />
 .\05-environment-check.ps1 <br />
-.\06-backup-local-state.ps1 <br />
+.\06-bootstrap-localhost.ps1 <br />
 
 <h2> Repository Access </h2>
 
@@ -65,7 +65,7 @@ The bootstrap process retrieves source code from the private `Anglican_Church_Au
 Access must be granted before running:
 
 powershell
-.\08-bootstrap-localhost.ps1
+.\06-bootstrap-localhost.ps1
 
 Users without an approved institutional GitHub invitation will be unable to complete repository clone operations.
 
